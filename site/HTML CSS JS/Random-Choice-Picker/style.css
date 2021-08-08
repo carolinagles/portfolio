@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Monodisplay=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://media1.giphy.com/media/f8OlK3Q70f1EpkRM9A/giphy.gif?cid=790b7611a213d64006a7aa930856964493cb5269fbb670ef&rid=giphy.gif&ct=g");
+  background-repeat: round;
+  font-family: "Nova Mono", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h3 {
+  background-color: rgb(245, 197, 197);
+  -webkit-text-stroke: 2px rgb(207, 7, 117);
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  text-align: center;
+  font-size: 32px;
+  text-align: center;
+  margin: 10px 0 20px;
+}
+
+.container {
+  width: 500px;
+}
+
+textarea {
+  border: 50px;
+  display: block;
+  width: 100%;
+  height: 100px;
+  font-family: inherit;
+  padding: 10px;
+  margin: 0 0 20px;
+  font-size: 16px;
+}
+
+.tag {
+  background-color: #4fb9e2;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 0 5px 10px 0;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.tag.highlight {
+  background-color: #000000;
+}
