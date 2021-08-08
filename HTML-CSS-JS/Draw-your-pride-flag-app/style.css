@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=ANTON:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://media2.giphy.com/media/d1Gv2hiFckqPHFjG/giphy.gif?cid=790b7611ce95889e849b7489c66385bbea3b29c331234c6c&rid=giphy.gif&ct=g");
+  font-family: "ANTON", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  background-color: antiquewhite;
+  border-radius: 30px;
+  font-size: 100px;
+}
+
+canvas {
+  background-color: white;
+  border: 2px solid darkgray;
+}
+
+.toolbox {
+  background-color: rgb(239, 237, 237);
+  border: 1px solid darkgray;
+  display: flex;
+  width: 804px;
+  padding: 1rem;
+}
+
+.toolbox > * {
+  background-color: #fff;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  height: 50px;
+  width: 50px;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.toolbox > *:last-child {
+  margin-left: auto;
+}
